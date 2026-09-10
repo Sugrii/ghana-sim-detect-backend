@@ -3,7 +3,12 @@
   "routes": [
     {
       "src": "/api/resolve-name",
-      "dest": "/api/resolve-name.js"
+      "dest": "/api/resolve-name.js",
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "POST, OPTIONS",
+        "Access-Control-Allow-Headers": "Content-Type"
+      }
     }
   ]
 }
