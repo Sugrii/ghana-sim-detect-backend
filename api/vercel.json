@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/resolve-name",
+      "dest": "/api/resolve-name.js"
+    }
+  ]
+}
